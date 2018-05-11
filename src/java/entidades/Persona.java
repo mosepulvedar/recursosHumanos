@@ -26,7 +26,7 @@ public class Persona {
     }
 
     public void setApellido(String apellido) {
-        this.apellido = apellido.toString();
+        this.apellido = apellido;
     }
 
     public Date getFecha_nacimiento() {
