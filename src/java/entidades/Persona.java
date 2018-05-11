@@ -30,7 +30,7 @@ public class Persona {
     }
 
     public Date getFecha_nacimiento() {
-        return fecha_nacimiento;
+        return fecha_nacimiento.toString();
     }
 
     public void setFecha_nacimiento(Date fecha_nacimiento) {
